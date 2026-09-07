@@ -1,6 +1,6 @@
 //!write a program in c++ to implement stack//
-#include <stdio.h>
-
+#include <iostream>
+#include <cstdio>
 #define MAX 5
 
 int stack[MAX];
@@ -10,7 +10,7 @@ void push(int value)
 {
     if (top == MAX - 1)
     {
-        printf("Stack Overflow\n");
+        std::cout << "Stack Overflow\n";
     }
     else
     {
