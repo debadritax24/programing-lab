@@ -11,7 +11,7 @@ public:
 
 int main() {
     vector<Student> stack;
-    int choice;
+    int choice; 
 
     do {
         cout << "\n1. Push";
