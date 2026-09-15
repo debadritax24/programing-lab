@@ -1,6 +1,6 @@
 //! write a program in c++ to create a vector class to define addition,substraction,dot product and cross product//
-
-#include <vector>
+#include <iostream>
+    #include <vector>
 using namespace std;
 
 class Vector
