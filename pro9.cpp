@@ -22,7 +22,7 @@ int main() {
         cin >> choice;
 
         if (choice == 1) {
-            Student s;
+                     Student s;  
 
             cout << "Enter name: ";
             cin >> s.name;
